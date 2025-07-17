@@ -1,20 +1,25 @@
-# telecom-churn-prediction
+# ev-data-analysis-python
 
-# Telecom Churn Prediction – Python Project
+# Electric Vehicle (EV) Data Analysis – Python Project
 
 ## 📌 Overview
-Built a churn prediction model using Logistic Regression to identify customers likely to leave a telecom service. The project focused on classification using structured customer data.
+This project explores an electric vehicle (EV) dataset to extract insights, identify performance trends, and support customer decision-making. The tasks include data filtering, EDA, hypothesis testing, and an EV recommendation system using Python.
 
 ## 🧰 Tools Used
 - Python (Jupyter Notebook)
 - Pandas, NumPy, Matplotlib, Seaborn
-- Scikit-learn
+- Scipy (t-test), OOP for recommendation
 
-## 🔍 Key Steps
-- Data cleaning and exploratory analysis
-- Feature selection and encoding
-- Trained logistic regression model to predict churn
-- Evaluated performance using accuracy, confusion matrix, and ROC curve
+## 🔍 Key Features
+
+### ✅ Task Highlights:
+- **Filtering** EVs based on budget and range
+- **Grouping & Aggregation** by manufacturer
+- **Outlier Detection** for energy consumption
+- **Correlation & Scatterplots** between battery and range
+- **Custom Recommendation Class** using user input
+- **Statistical Hypothesis Testing** (Audi vs Tesla engine power)
 
 ## 📁 Files
-- `telecom_churn_prediction.pdf` – Complete report with code, outputs, and insights
+- `ev_data_analysis.ipynb` – Full Jupyter notebook with code, analysis, and visualizations
+- `ev_data_analysis_report.pdf` – Exported project report with screenshots, insights, and tasks
